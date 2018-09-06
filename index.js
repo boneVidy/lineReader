@@ -6,7 +6,7 @@ class LineReader extends EventEmitter {
 
   /**
    *Creates an instance of LineReader.
-   *@classdesc 创建一个lineReader 同过实例方法.on（‘newLine’, callback）获取读取的buffer
+   *@classdesc 创建一个lineReader 
    * @param {PathLike | string} path 
    * @example 
    * const linreader = new LineReader ('./test.txt');
